@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Bonsai Baggins Portfolio</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../index.html</link>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description></description>
 	<lastBuildDate>Fri, 14 Apr 2023 12:22:09 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,33 +21,33 @@
 	<generator>https://wordpress.org/?v=6.2</generator>
 	<item>
 		<title>Illustration</title>
-		<link>./../2023/04/14/illustration/index.html</link>
-					<comments>./../2023/04/14/illustration/index.html#respond</comments>
+		<link>/2023/04/14/illustration/</link>
+					<comments>/2023/04/14/illustration/#respond</comments>
 		
 		<dc:creator><![CDATA[BonsaiBaggins]]></dc:creator>
 		<pubDate>Fri, 14 Apr 2023 12:12:02 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<category><![CDATA[Illustration]]></category>
-		<guid isPermaLink="false">./../index.html?p=159</guid>
+		<guid isPermaLink="false">/?p=159</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
-					<wfw:commentRss>./../2023/04/14/illustration/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>/2023/04/14/illustration/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>2D Animation</title>
-		<link>./../2023/04/14/2d-animation/index.html</link>
-					<comments>./../2023/04/14/2d-animation/index.html#respond</comments>
+		<link>/2023/04/14/2d-animation/</link>
+					<comments>/2023/04/14/2d-animation/#respond</comments>
 		
 		<dc:creator><![CDATA[BonsaiBaggins]]></dc:creator>
 		<pubDate>Fri, 14 Apr 2023 11:25:01 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<category><![CDATA[2DAnimation]]></category>
-		<guid isPermaLink="false">./../index.html?p=144</guid>
+		<guid isPermaLink="false">/?p=144</guid>
 
 					<description><![CDATA[Test Gallery Here&#8217;s a test gallery to look at And here&#8217;s another]]></description>
 										<content:encoded><![CDATA[
@@ -60,9 +60,9 @@
 
 
 <div class="wp-block-responsive-lightbox-gallery">
-<a href='./../wp-content/uploads/2023/04/ClockworkFoxToken.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="300" height="300" src="./../wp-content/uploads/2023/04/ClockworkFoxToken-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="./../wp-content/uploads/2023/04/ClockworkFoxToken-300x300.png 300w, ./../wp-content/uploads/2023/04/ClockworkFoxToken-150x150.png 150w, ./../wp-content/uploads/2023/04/ClockworkFoxToken.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-<a href='./../wp-content/uploads/2023/04/SafirAkbasToken.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="300" height="300" src="./../wp-content/uploads/2023/04/SafirAkbasToken-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="./../wp-content/uploads/2023/04/SafirAkbasToken-300x300.png 300w, ./../wp-content/uploads/2023/04/SafirAkbasToken-150x150.png 150w, ./../wp-content/uploads/2023/04/SafirAkbasToken.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-<a href='./../wp-content/uploads/2023/04/SafirToken.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="300" height="300" src="./../wp-content/uploads/2023/04/SafirToken-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="./../wp-content/uploads/2023/04/SafirToken-300x300.png 300w, ./../wp-content/uploads/2023/04/SafirToken-150x150.png 150w, ./../wp-content/uploads/2023/04/SafirToken.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href='/wp-content/uploads/2023/04/ClockworkFoxToken.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="300" height="300" src="/wp-content/uploads/2023/04/ClockworkFoxToken-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="/wp-content/uploads/2023/04/ClockworkFoxToken-300x300.png 300w, /wp-content/uploads/2023/04/ClockworkFoxToken-150x150.png 150w, /wp-content/uploads/2023/04/ClockworkFoxToken.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href='/wp-content/uploads/2023/04/SafirAkbasToken.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="300" height="300" src="/wp-content/uploads/2023/04/SafirAkbasToken-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="/wp-content/uploads/2023/04/SafirAkbasToken-300x300.png 300w, /wp-content/uploads/2023/04/SafirAkbasToken-150x150.png 150w, /wp-content/uploads/2023/04/SafirAkbasToken.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href='/wp-content/uploads/2023/04/SafirToken.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="300" height="300" src="/wp-content/uploads/2023/04/SafirToken-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="/wp-content/uploads/2023/04/SafirToken-300x300.png 300w, /wp-content/uploads/2023/04/SafirToken-150x150.png 150w, /wp-content/uploads/2023/04/SafirToken.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 </div>
 
 
@@ -72,13 +72,13 @@
 
 
 <div class="wp-block-responsive-lightbox-gallery">
-<a href='./../wp-content/uploads/2023/04/ClockworkFoxToken.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-2"><img width="300" height="300" src="./../wp-content/uploads/2023/04/ClockworkFoxToken-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="./../wp-content/uploads/2023/04/ClockworkFoxToken-300x300.png 300w, ./../wp-content/uploads/2023/04/ClockworkFoxToken-150x150.png 150w, ./../wp-content/uploads/2023/04/ClockworkFoxToken.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-<a href='./../wp-content/uploads/2023/04/SafirAkbasToken.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-2"><img width="300" height="300" src="./../wp-content/uploads/2023/04/SafirAkbasToken-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="./../wp-content/uploads/2023/04/SafirAkbasToken-300x300.png 300w, ./../wp-content/uploads/2023/04/SafirAkbasToken-150x150.png 150w, ./../wp-content/uploads/2023/04/SafirAkbasToken.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-<a href='./../wp-content/uploads/2023/04/SafirToken.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-2"><img width="300" height="300" src="./../wp-content/uploads/2023/04/SafirToken-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="./../wp-content/uploads/2023/04/SafirToken-300x300.png 300w, ./../wp-content/uploads/2023/04/SafirToken-150x150.png 150w, ./../wp-content/uploads/2023/04/SafirToken.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href='/wp-content/uploads/2023/04/ClockworkFoxToken.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-2"><img width="300" height="300" src="/wp-content/uploads/2023/04/ClockworkFoxToken-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="/wp-content/uploads/2023/04/ClockworkFoxToken-300x300.png 300w, /wp-content/uploads/2023/04/ClockworkFoxToken-150x150.png 150w, /wp-content/uploads/2023/04/ClockworkFoxToken.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href='/wp-content/uploads/2023/04/SafirAkbasToken.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-2"><img width="300" height="300" src="/wp-content/uploads/2023/04/SafirAkbasToken-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="/wp-content/uploads/2023/04/SafirAkbasToken-300x300.png 300w, /wp-content/uploads/2023/04/SafirAkbasToken-150x150.png 150w, /wp-content/uploads/2023/04/SafirAkbasToken.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+<a href='/wp-content/uploads/2023/04/SafirToken.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-2"><img width="300" height="300" src="/wp-content/uploads/2023/04/SafirToken-300x300.png" class="attachment-medium size-medium" alt="" decoding="async" srcset="/wp-content/uploads/2023/04/SafirToken-300x300.png 300w, /wp-content/uploads/2023/04/SafirToken-150x150.png 150w, /wp-content/uploads/2023/04/SafirToken.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>./../2023/04/14/2d-animation/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>/2023/04/14/2d-animation/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

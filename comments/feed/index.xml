@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments for Bonsai Baggins Portfolio	</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../../index.html</link>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description></description>
 	<lastBuildDate>Fri, 14 Apr 2023 12:22:09 +0000</lastBuildDate>
 	<sy:updatePeriod>
