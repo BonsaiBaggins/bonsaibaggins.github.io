@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=6.2</generator>
 	<item>
 		<title>Illustration</title>
-		<link>http://bonsaibaggins.com/2023/04/14/illustration/</link>
-					<comments>http://bonsaibaggins.com/2023/04/14/illustration/#respond</comments>
+		<link>http://bonsaibaggins.com/illustration/</link>
+					<comments>http://bonsaibaggins.com/illustration/#respond</comments>
 		
 		<dc:creator><![CDATA[BonsaiBaggins]]></dc:creator>
 		<pubDate>Fri, 14 Apr 2023 12:12:02 +0000</pubDate>
@@ -33,15 +33,15 @@
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
-					<wfw:commentRss>http://bonsaibaggins.com/2023/04/14/illustration/feed/</wfw:commentRss>
+					<wfw:commentRss>http://bonsaibaggins.com/illustration/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>2D Animation</title>
-		<link>http://bonsaibaggins.com/2023/04/14/2d-animation/</link>
-					<comments>http://bonsaibaggins.com/2023/04/14/2d-animation/#respond</comments>
+		<link>http://bonsaibaggins.com/2d-animation/</link>
+					<comments>http://bonsaibaggins.com/2d-animation/#respond</comments>
 		
 		<dc:creator><![CDATA[BonsaiBaggins]]></dc:creator>
 		<pubDate>Fri, 14 Apr 2023 11:25:01 +0000</pubDate>
@@ -78,7 +78,7 @@
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>http://bonsaibaggins.com/2023/04/14/2d-animation/feed/</wfw:commentRss>
+					<wfw:commentRss>http://bonsaibaggins.com/2d-animation/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
