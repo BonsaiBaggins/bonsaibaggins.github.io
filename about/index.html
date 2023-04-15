@@ -88,6 +88,34 @@ background-image: linear-gradient(
 padding-top: 30px;
 padding-bottom: 30px;
 margin: 0px;
+}.wp-block-group.set-pos {
+  position:relative;
+}
+
+.shift-up-400 {
+  position: absolute;
+  bottom:0;
+  width:100%;
+  padding:0px;
+}
+
+.overlay {
+position:absolute;
+bottom: 0px;
+width:100%;
+background-colorb: rgba(11, 12, 16, 0.5);
+background-image: linear-gradient(
+  rgba(11, 12, 16, 0), 
+  rgba(11, 12, 16, 1)
+);
+padding-top: 30px;
+padding-bottom: 30px;
+margin: 0px;
+}.wp-block-image.paralax-0 {
+  background-size: cover;
+  min-height: 100px;
+  max-height: 100px;
+
 }</style>
 <style id="core-block-supports-inline-css">.wp-container-18.wp-container-18{justify-content:center;}.wp-elements-7b67929e2c7f0ee6538ecbc5585fcc72 a{color:#1e70ea;}.wp-container-5.wp-container-5,.wp-container-32.wp-container-32{justify-content:flex-end;}.wp-container-7.wp-container-7,.wp-container-9.wp-container-9,.wp-container-24.wp-container-24,.wp-container-30.wp-container-30,.wp-container-34.wp-container-34{flex-wrap:nowrap;}.wp-container-10.wp-container-10 > :where(:not(.alignleft):not(.alignright):not(.alignfull)),.wp-container-36.wp-container-36 > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:1170px;margin-left:auto !important;margin-right:auto !important;}.wp-container-10.wp-container-10 > .alignwide,.wp-container-36.wp-container-36 > .alignwide{max-width:1170px;}.wp-container-10.wp-container-10 .alignfull,.wp-container-36.wp-container-36 .alignfull{max-width:none;}.wp-elements-efc0602871f3466c650d79df5ec399b0 a,.wp-elements-6c6014570023546a4529a3d07953a3d7 a,.wp-elements-055d848aef27aef7fe488aa420e23fe1 a,.wp-elements-a22895d74e0607c14d57d40efde58143 a,.wp-elements-b96e67e186836df21abc4bd751c51a72 a,.wp-elements-433ade5c8f222ba5e20056ba58876a49 a,.wp-elements-39516a62bc3f0710a08dce4e2f28fcb3 a{color:var(--wp--preset--color--white);}.wp-elements-d7c4515ab4c00245f86746356f51b26c a,.wp-elements-88be6930e250d6f6c9bea4f37d4ff74b a,.wp-elements-426d0f51e410097aabe2a28291e8e3d9 a,.wp-elements-5341a3cc2d0095dd456006e84ac6487b a{color:var(--wp--preset--color--zeever-secondary);}</style>
 <link rel="stylesheet" id="responsive-lightbox-tosrus-css" href="http://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min.css?ver=2.4.5" media="all">
@@ -103,7 +131,7 @@ margin: 0px;
 <script src="http://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/assets/tosrus/jquery.tosrus.min.js?ver=2.4.5" id="responsive-lightbox-tosrus-js"></script>
 <script src="http://bonsaibaggins.com/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
 <script src="http://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/assets/infinitescroll/infinite-scroll.pkgd.min.js?ver=6.2" id="responsive-lightbox-infinite-scroll-js"></script>
-<script id="responsive-lightbox-js-before">var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeGalleries":true,"effect":"slide","infinite":true,"keys":true,"autoplay":false,"pauseOnHover":false,"timeout":4000,"pagination":true,"paginationType":"thumbnails","closeOnClick":true,"woocommerce_gallery":false,"ajaxurl":"http:\/\/bonsaibaggins.com\/wp-admin\/admin-ajax.php","nonce":"2fb22dd2ec","preview":false,"postId":67,"scriptExtension":false};</script>
+<script id="responsive-lightbox-js-before">var rlArgs = {"script":"tosrus","selector":"lightbox","customEvents":"","activeGalleries":true,"effect":"slide","infinite":true,"keys":true,"autoplay":false,"pauseOnHover":false,"timeout":4000,"pagination":true,"paginationType":"thumbnails","closeOnClick":true,"woocommerce_gallery":false,"ajaxurl":"http:\/\/bonsaibaggins.com\/wp-admin\/admin-ajax.php","nonce":"92128c6d33","preview":false,"postId":67,"scriptExtension":false};</script>
 <script src="http://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/js/front.js?ver=2.4.5" id="responsive-lightbox-js"></script>
 <link rel="https://api.w.org/" href="http://bonsaibaggins.com/wp-json/">
 <link rel="alternate" type="application/json" href="http://bonsaibaggins.com/wp-json/wp/v2/pages/67">
@@ -151,7 +179,7 @@ margin: 0px;
 
 
 
-<div style="height:110px" aria-hidden="true" class="wp-block-spacer"></div>
+<div style="height:105px" aria-hidden="true" class="wp-block-spacer"></div>
 </header>
 			
 			
@@ -422,6 +450,8 @@ margin: 0px;
 		// Inject the skip link.
 		sibling.parentElement.insertBefore( skipLink, sibling );
 	}() );</script>
-	<script src="http://bonsaibaggins.com/wp-content/themes/zeever//assets/js/index.js?ver=1.0.9" id="zeever-animate-js"></script>
+	<script id="page-scroll-to-id-plugin-script-js-extra">var mPS2id_params = {"instances":{"mPS2id_instance_0":{"selector":"a[href*='#']:not([href='#'])","autoSelectorMenuLinks":"true","excludeSelector":"a[href^='#tab-'], a[href^='#tabs-'], a[data-toggle]:not([data-toggle='tooltip']), a[data-slide], a[data-vc-tabs], a[data-vc-accordion], a.screen-reader-text.skip-link","scrollSpeed":800,"autoScrollSpeed":"true","scrollEasing":"easeInOutQuint","scrollingEasing":"easeOutQuint","forceScrollEasing":"false","pageEndSmoothScroll":"true","stopScrollOnUserAction":"false","autoCorrectScroll":"false","autoCorrectScrollExtend":"false","layout":"vertical","offset":0,"dummyOffset":"false","highlightSelector":"","clickedClass":"mPS2id-clicked","targetClass":"mPS2id-target","highlightClass":"mPS2id-highlight","forceSingleHighlight":"false","keepHighlightUntilNext":"false","highlightByNextTarget":"false","appendHash":"false","scrollToHash":"true","scrollToHashForAll":"true","scrollToHashDelay":0,"scrollToHashUseElementData":"true","scrollToHashRemoveUrlHash":"false","disablePluginBelow":0,"adminDisplayWidgetsId":"true","adminTinyMCEbuttons":"true","unbindUnrelatedClickEvents":"false","unbindUnrelatedClickEventsSelector":"","normalizeAnchorPointTargets":"false","encodeLinks":"false"}},"total_instances":"1","shortcode_class":"_ps2id"};</script>
+<script src="http://bonsaibaggins.com/wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min.js?ver=1.7.7" id="page-scroll-to-id-plugin-script-js"></script>
+<script src="http://bonsaibaggins.com/wp-content/themes/zeever//assets/js/index.js?ver=1.0.9" id="zeever-animate-js"></script>
 </body>
 </html>
