@@ -91,12 +91,12 @@
 /* Font */
 @font-face {
 	font-family: 'responsive-lightbox';
-	src: url('http://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.eot?86939755');
-	src: url('http://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.eot?86939755#iefix') format('embedded-opentype'),
-		url('http://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.woff2?86939755') format('woff2'),
-		url('http://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.woff?86939755') format('woff'),
-		url('http://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.ttf?86939755') format('truetype'),
-		url('http://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.svg?86939755#responsive-lightbox') format('svg');
+	src: url('https://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.eot?86939755');
+	src: url('https://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.eot?86939755#iefix') format('embedded-opentype'),
+		url('https://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.woff2?86939755') format('woff2'),
+		url('https://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.woff?86939755') format('woff'),
+		url('https://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.ttf?86939755') format('truetype'),
+		url('https://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.svg?86939755#responsive-lightbox') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -106,7 +106,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'responsive-lightbox';
-    src: url('http://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.svg?86939755#responsive-lightbox') format('svg');
+    src: url('https://bonsaibaggins.com/wp-content/plugins/responsive-lightbox/font/responsive-lightbox.svg?86939755#responsive-lightbox') format('svg');
   }
 }
 */
