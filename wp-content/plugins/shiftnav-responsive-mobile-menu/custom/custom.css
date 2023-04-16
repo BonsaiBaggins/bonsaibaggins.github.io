@@ -1,0 +1,91 @@
+/* Custom ShiftNav Skin Sample */
+
+.shiftnav.shiftnav-skin-custom {
+  font-size: 13px;
+  line-height: 1.3em;
+  background: #363636;
+  color: #fcfcfc;
+}
+.shiftnav.shiftnav-skin-custom .shiftnav-site-title {
+  font-size: 30px;
+  font-family: var(--wp--custom--headings--typography--font-family);
+  text-align: left;
+  padding: 40px 25px;
+  font-weight: normal;
+  color: #fcfcfc;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item > .shiftnav-target {
+  color: #fcfcfc;
+  font-size: 15px;
+  font-family: var(--wp--custom--headings--typography--font-family);
+  font-weight: normal;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item .shiftnav-submenu-activation {
+  background: rgba(0, 0, 0, 0.1);
+  color: #555555;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item .shiftnav-submenu-activation:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: #cfbba1;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item.shiftnav-active > .shiftnav-submenu-activation,
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item.shiftnav-in-transition > .shiftnav-submenu-activation {
+  background: rgba(0, 0, 0, 0.1);
+  color: #cfbba1;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item.shiftnav-highlight > .shiftnav-target,
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item ul.sub-menu .shiftnav-highlight > .shiftnav-target {
+  color: #cfbba1;
+  background: transparent;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item.shiftnav-active > .shiftnav-target,
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item.shiftnav-in-transition > .shiftnav-target{
+  color: #eeeeee;
+  background: #cfbba1;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item.current-menu-item > .shiftnav-target,
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.menu-item ul.sub-menu .current-menu-item .shiftnav-target {
+  color: #eeeeee;
+  background: #cfbba1;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu > li.menu-item > .shiftnav-target {
+  text-transform: uppercase;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu li.shiftnav-retract .shiftnav-target {
+  background: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  text-transform: normal;
+  font-size: 12px;
+  text-align: right;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu ul.sub-menu {
+  color: #cccccc;
+  background: #25252a;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu ul.sub-menu li.menu-item > .shiftnav-target {
+  color: #999999;
+  border-width: inherit;
+  font-weight: normal;
+  font-size: inherit;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu.shiftnav-sub-always ul.sub-menu li.menu-item > .shiftnav-target {
+  padding-left: 50px;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu.shiftnav-sub-always ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target {
+  padding-left: 75px;
+}
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu.shiftnav-sub-always ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu li.menu-item > .shiftnav-target {
+  padding-left: 100px;
+}
+.shiftnav.shiftnav-skin-custom.shiftnav-left-edge {
+  border-right: none;
+}
+.shiftnav.shiftnav-skin-custom.shiftnav-right-edge {
+  border-left: none;
+}
+.shiftnav.shiftnav-skin-custom.shiftnav-nojs ul.shiftnav-menu li.menu-item > .shiftnav-target:hover,
+.shiftnav.shiftnav-skin-custom ul.shiftnav-menu.shiftnav-active-on-hover li.menu-item > .shiftnav-target:hover,
+.shiftnav.shiftnav-skin-custom.shiftnav-active-highlight ul.shiftnav-menu li.menu-item > .shiftnav-target:active {
+  color: #eeeeee;
+  background: #cfbba1;
+}
