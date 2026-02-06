@@ -886,12 +886,37 @@ Prize 2|#4a8f8f|An amazing second prize!"></textarea>
 <!-- ================================================= OPTIONS========================================================================== -->
     <script>
         let options = [
-            { text: 'Grand Prize', description: 'The ultimate reward - a spectacular grand prize!', color: '#d64545', disabled: false },
-            { text: 'Mystery Box', description: 'What could be inside? Open to find out!', color: '#4a8f8f', disabled: false },
-            { text: 'Golden Ticket', description: 'A rare and valuable golden ticket!', color: '#d4a574', disabled: false },
-            { text: 'Bonus Round', description: 'Spin again for another chance to win!', color: '#f4e8d0', disabled: false },
-            { text: 'Special Prize', description: 'A unique and special reward awaits!', color: '#8b6f47', disabled: false },
-            { text: 'Jackpot', description: 'Hit the jackpot and win big!', color: '#b83838', disabled: false }
+            { text: 'Cauldwell\'s Cureall', description: 'Cure one condition (1d4 charges)', color: '#d64545', disabled: false },
+            { text: 'Quill and Twink', description: 'Replace up to 3 letters in the name of a spell and argue its new effect (1D6 charges)', color: '#4a8f8f', disabled: false },
+            { text: 'Maximum Gulp! (Travel Size)', description: 'The "longest drink in the land" in a tiny can. When consumed, your movement speed doubles and you can take an additional Action on your turn, but you take 1d10 psychic damage from the brain freeze. 1d6 charges.', color: '#d4a574', disabled: false },
+            { text: 'Instant Mascot Suit', description: 'As a bonus action, squeeze the ball of fur to turn into a mascot costume you describe. Disadvantage on stealth, advantage to charisma checks.', color: '#f4e8d0', disabled: false },
+            { text: 'Cut! Rerol!', description: 'A silver-plated megaphone that lets you shout over the narrative. You can use a free action to force any creature you can see to reroll a D20 (2 charges).', color: '#8b6f47', disabled: false },
+            { text: 'Cut!Switch!', description: 'A gold-plated megaphone that lets you shout over the narrative. You can use a free action to force any creature you can see to undo an action or decision and make a new, thematically different one.', color: '#b83838', disabled: false },
+            { text: 'Big Eraser', description: 'A giant, pink rubber block. Use an action to touch a creature or object; you erase it from existence. If the creature has over 20HP, it reappears after a minute. (2 charges)', color: '#d64545', disabled: false },
+            { text: 'Canned Laughter', description: 'Use an action to play a laugh track and switch the audience opinion in your favour. Say what you want the audience to do for you (GM will decide on final effect) (2 charges)', color: '#4a8f8f', disabled: false },
+            { text: 'Main Character Spotlight', description: 'Flick the switch to turn on a spotlight centered on yourself for 1 minute. While active, you have the audience\'s full attention. Other players will not receive cheer tokens or punishment wheel spins for their actions, but you will receive double for yours. (1 charge)', color: '#d4a574', disabled: false },
+            { text: 'Gacha-Grenade', description: 'A mysterious, shaking sphere. When thrown, roll a d6: 1-2: it explodes into 1d100 gold pieces; 3-4: it releases a Hostile Swarm of Bees; 5-6: it transforms into a Random Magic Item', color: '#f4e8d0', disabled: false },
+            { text: 'Pinch and a Punch', description: 'At ANY TIME pinch & punch one character for 2D6 piercing and 4D6 bludgeoning (single use)', color: '#8b6f47', disabled: false },
+            { text: 'Wildmagic Grenade', description: 'Throw as bonus action up to 40ft, wildmagic surge on landing, 1D6 grenades.', color: '#b83838', disabled: false },
+            { text: 'Hotdiggitydog', description: 'A stick of dynamite dipped in batter. You can eat it to restore 4d4+4 HP, or light the fuse and throw it as an action (30/60ft) to deal 8d6 fire damage in a 20ft radius.', color: '#d64545', disabled: false },
+            { text: 'Flashbangpop', description: 'A confetti popper, activate as an action, DC18 con save, stuns enemy (con save at end of each turn) and deals 2D10 thunder damage.', color: '#4a8f8f', disabled: false },
+            { text: 'Custard Pie', description: 'A tin filled with custard. Ranged weapon attack (20/60ft); on a hit, the target is Blinded until they use an action to wipe their face. While blinded, all damage against them is funny. (1D4 pies)', color: '#d4a574', disabled: false },
+            { text: 'Tiny Tricycle', description: 'A little tricycle you can ride around on. Speed 50ft. If you take damage, you must pass a DC 15 Acrobatics check or be thrown 10ft and knocked Prone.', color: '#f4e8d0', disabled: false },
+            { text: 'Banana Peel', description: 'As a bonus action, throw into a space within 30ft. The first creature to enter the square must succeed on a DC 17 Dexterity save or fall Prone, sliding 10ft in the direction they were moving and taking 1D10+5 funny damage. (3 peels).', color: '#8b6f47', disabled: false },
+            { text: 'Squirt Flower', description: 'A flower on your lapel. Ranged attack 10ft, 2D10 acid damage, reduces worn armour AC by 1. (1d6 uses)', color: '#b83838', disabled: false },
+            { text: 'Giant Squeaky Mallet', description: 'A massive inflatable hammer. Strength weapon. Deals 2d12 funny damage on a hit and makes a loud honk; however, if you roll a 1 on the attack, the hammer pops, dealing 1d10 thunder damage to you and becoming useless.', color: '#d64545', disabled: false },
+            { text: 'The Prankster\'s Handshake', description: 'A glove with a hidden high-voltage coil. It functions as a melee weapon that deals 3d8 lightning damage and the target must succeed on a DC 15 Constitution save or be Stunned until the start of your next turn (3 charges). If the attack misses, you instead take 1d8 lightning damage', color: '#4a8f8f', disabled: false },
+            { text: 'Board With a Nail in it', description: 'Slam on an enemy\'s foot. Mele attack 5ft, 1D10 damage, reduce speed by 5ft (repeatable)', color: '#d4a574', disabled: false },
+            { text: 'Yoyo', description: 'Melee attack(dex) 10ft, 1D10 bludgeoning, DC15 grapple (save at end of turn). While grappled: Walk the dog - 1D10 funny damage', color: '#f4e8d0', disabled: false },
+            { text: 'Balloon Dog', description: 'A balloon animal that comes to life. It has the stats of a Wolf but has exactly 1 HP. If it takes any damage, it pops with a loud bang that deals 6d6 thunder damage in a 10ft radius. Follows commands on your turn and uses your movement to move.', color: '#8b6f47', disabled: false },
+            { text: 'Jack in the Box', description: 'A box with a little guy in it. He might give you advice if you ask', color: '#b83838', disabled: false },
+            { text: 'Bag of Beans', description: 'Look it up', color: '#d64545', disabled: false },
+            { text: 'Nolzur\'s Marvelous Pigments', description: 'Look it up', color: '#4a8f8f', disabled: false },
+            { text: 'wand of wonder', description: 'Look it up', color: '#d4a574', disabled: false },
+            { text: 'Robe of Useful Items', description: 'Look it up', color: '#f4e8d0', disabled: false },
+            { text: 'Bag of Tricks', description: 'Look it up', color: '#8b6f47', disabled: false },
+            { text: 'Portable Hole', description: 'Look it up', color: '#b83838', disabled: false },
+            
         ];
 
         let isSpinning = false;
