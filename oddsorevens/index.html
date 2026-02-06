@@ -798,7 +798,7 @@
     </style>
 </head>
 <body>
-    <h1 class="page-title" id="pageTitle">Challenge Wheel</h1>
+    <h1 class="page-title" id="pageTitle">Try Your Luck!</h1>
 
     <div class="container">
         <div class="panel left-panel" id="historyPanel" onclick="if(this.classList.contains('collapsed')) toggleHistoryPanel()">
@@ -868,9 +868,9 @@ Prize 2|#4a8f8f|An amazing second prize!"></textarea>
                 <hr style="margin: 20px 0; border: 1px solid #ddd;">
                 
                 <h3 style="color: #d64545; margin-bottom: 10px; font-family: 'Limelight', cursive;">🎪 Other Wheels</h3>
-                <a href="/prizeWheel/index.html" class="btn" style="display: block; text-align: center; text-decoration: none; margin-bottom: 10px;">🎁 Prize Wheel</a>
-                <a href="/punishmentWheel/index.html" class="btn" style="display: block; text-align: center; text-decoration: none; margin-bottom: 10px;">⚡ Punishment Wheel</a>
-                <a href="oddsorevens/" class="btn" style="display: block; text-align: center; text-decoration: none;">❓ Try your luck</a>
+                <a href="prizewheel/" class="btn" style="display: block; text-align: center; text-decoration: none; margin-bottom: 10px;">🎁 Prize Wheel</a>
+                <a href="punishmentwheel/" class="btn" style="display: block; text-align: center; text-decoration: none; margin-bottom: 10px;">⚡ Punishment Wheel</a>
+                <a href="challengewheel/" class="btn" style="display: block; text-align: center; text-decoration: none;">🏆 Challenge Wheel</a>
             </div>
         </div>
     </div>
@@ -886,12 +886,27 @@ Prize 2|#4a8f8f|An amazing second prize!"></textarea>
 <!-- ================================================= OPTIONS========================================================================== -->
     <script>
         let options = [
-            { text: 'Grand Prize', description: 'The ultimate reward - a spectacular grand prize!', color: '#d64545', disabled: false },
-            { text: 'Mystery Box', description: 'What could be inside? Open to find out!', color: '#4a8f8f', disabled: false },
-            { text: 'Golden Ticket', description: 'A rare and valuable golden ticket!', color: '#d4a574', disabled: false },
-            { text: 'Bonus Round', description: 'Spin again for another chance to win!', color: '#f4e8d0', disabled: false },
-            { text: 'Special Prize', description: 'A unique and special reward awaits!', color: '#8b6f47', disabled: false },
-            { text: 'Jackpot', description: 'Hit the jackpot and win big!', color: '#b83838', disabled: false }
+            { text: '0', description: 'EVEN!', color: '#f4e8d0', disabled: false },
+            { text: '1', description: 'ODD!', color: '##d64545', disabled: false },
+            { text: '2', description: 'EVEN!', color: '#f4e8d0', disabled: false },
+            { text: '3', description: 'ODD!', color: '##d64545', disabled: false },
+            { text: '4', description: 'EVEN!', color: '#f4e8d0', disabled: false },
+            { text: '5', description: 'ODD!', color: '##d64545', disabled: false },
+            { text: '6', description: 'EVEN!', color: '#f4e8d0', disabled: false },
+            { text: '7', description: 'ODD!', color: '##d64545', disabled: false },
+            { text: '8', description: 'EVEN!', color: '#f4e8d0', disabled: false },
+            { text: '9', description: 'ODD!', color: '##d64545', disabled: false },
+            { text: '10', description: 'EVEN!', color: '#f4e8d0', disabled: false },
+            { text: '11', description: 'ODD!', color: '##d64545', disabled: false },
+            { text: '12', description: 'EVEN!', color: '#f4e8d0', disabled: false },
+            { text: '13', description: 'ODD!', color: '##d64545', disabled: false },
+            { text: '14', description: 'EVEN!', color: '#f4e8d0', disabled: false },
+            { text: '15', description: 'ODD!', color: '##d64545', disabled: false },
+            { text: '16', description: 'EVEN!', color: '#f4e8d0', disabled: false },
+            { text: '17', description: 'ODD!', color: '##d64545', disabled: false },
+            { text: '18', description: 'EVEN!', color: '#f4e8d0', disabled: false },
+            { text: '19', description: 'ODD!', color: '##d64545', disabled: false },
+            { text: '20', description: 'EVEN!', color: '#f4e8d0', disabled: false }
         ];
 
         let isSpinning = false;
@@ -1135,7 +1150,7 @@ Prize 2|#4a8f8f|An amazing second prize!"></textarea>
         }
 
         function updateTitle(value) {
-            document.getElementById('pageTitle').textContent = value || 'Challenge Wheel';
+            document.getElementById('pageTitle').textContent = value || 'Prize Wheel';
         }
 
         function updateOption(index, text, color, description) {
