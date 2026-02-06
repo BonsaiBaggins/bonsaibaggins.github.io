@@ -886,12 +886,24 @@ Prize 2|#4a8f8f|An amazing second prize!"></textarea>
 <!-- ================================================= OPTIONS========================================================================== -->
     <script>
         let options = [
-            { text: 'Grand Prize', description: 'The ultimate reward - a spectacular grand prize!', color: '#d64545', disabled: false },
-            { text: 'Mystery Box', description: 'What could be inside? Open to find out!', color: '#4a8f8f', disabled: false },
-            { text: 'Golden Ticket', description: 'A rare and valuable golden ticket!', color: '#d4a574', disabled: false },
-            { text: 'Bonus Round', description: 'Spin again for another chance to win!', color: '#f4e8d0', disabled: false },
-            { text: 'Special Prize', description: 'A unique and special reward awaits!', color: '#8b6f47', disabled: false },
-            { text: 'Jackpot', description: 'Hit the jackpot and win big!', color: '#b83838', disabled: false }
+            { text: 'Hecklers', description: 'A section of the audience starts booing at a specific player. For the next minute (or until they can sway audience opinion), the player must succeed on a DC 14 Wis save at the start of their turn or have Disadvantage on their next attack roll.', color: '#d64545', disabled: false },
+            { text: 'Splash Zone', description: 'A section of the audience starts throwing food and drink at a specific player. Until they can sway audience opinion, the player has Disadvantage ability checks.', color: '#4a8f8f', disabled: false },
+            { text: 'Pyrotechnic Misfire', description: 'The underneath the party explodes with fire and sparks. Every player in a 20ft radius must make a DC 15 Dexterity save, taking 4d6 fire damage on a failure, or half as much on a success. The area becomes Difficult Terrain covered in sparkly, hot soot.', color: '#d4a574', disabled: false },
+            { text: 'Training Weights', description: 'Weighted braces appear around the players\' ankles. UNtil audience opinion is swayed they have half movement', color: '#f4e8d0', disabled: false },
+            { text: 'Impediment', description: 'The GM gets a token to spend later', color: '#8b6f47', disabled: false },
+            { text: 'Airhorn', description: 'A loud airhorn erupts right by the players\' ears. They are deaf for the rest of this challenge', color: '#b83838', disabled: false },
+            { text: 'You Suck, I Suck', description: 'An energy vampire in the crowd steals your life juice. Gain one level of exhaustion', color: '#d64545', disabled: false },
+            { text: 'Panic Button', description: 'The audience presses the panic button. You are frightened of a random creature until the end of this encounter', color: '#4a8f8f', disabled: false },
+            { text: 'Feel better', description: 'The audience took pity on you and want you to feel better. You are charmed by a random creature until the end of this encounter, or until you take damage from them.', color: '#d4a574', disabled: false },
+            { text: 'Freaky Friday', description: 'Swap sheets with a random player for the rest of this encounter', color: '#f4e8d0', disabled: false },
+            { text: 'Poisoned', description: 'The audience shoots you with a poison dart. You are poisoned until an antidote is taken', color: '#8b6f47', disabled: false },
+            { text: 'Impediment', description: 'The GM gets a token to spend later', color: '#b83838', disabled: false },
+            { text: 'Giant Apes', description: '(CR7) 1D6 Giant Apes', color: '#d64545', disabled: false },
+            { text: 'Clay Golems', description: '(CR9) 1D3 Clay Golems', color: '#4a8f8f', disabled: false },
+            { text: 'Stone Golem', description: '(CR10) 1D2 Clay Golems', color: '#d4a574', disabled: false },
+            { text: 'Impediment', description: 'The GM gets a token to spend later', color: '#f4e8d0', disabled: false },
+            { text: 'Explain Yourself', description: 'The audience holds your attention. Whenever you make an attack roll, ability check, or saving throw, you must first explain to the audience why you made them angry with a Persuasion check. On a 9 or less, you are too busy talking to make your roll, on a 10-15 you may make your roll, on a 16+ the effect ends', color: '#8b6f47', disabled: false },
+            { text: 'Limelight', description: 'A harsh spotlight locks onto a player. The player cannot benefit from being Invisible or Hidden, and all attacks against them have Advantage', color: '#b83838', disabled: false },
         ];
 
         let isSpinning = false;
